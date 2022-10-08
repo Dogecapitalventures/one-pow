@@ -1,0 +1,30 @@
+.s-layout{
+    // margin-top: 112px;
+    height: calc(100vh - 124px);
+    padding: 0 20px;
+    background: #150000;
+
+    .page-content{
+        width: 100%;
+        height: 100%;
+        background: #150000;
+        // overflow: hidden;
+        border: 2px solid #b20000;
+    
+        .main-content{
+            overflow-y: auto;
+            overflow-x: hidden;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+    
+            .app-inner{
+                max-width: 1000px;
+                width: 86%;
+                padding-top: 3rem;
+            }
+            // margin-left: 270px;
+        }
+    }
+    
+}
